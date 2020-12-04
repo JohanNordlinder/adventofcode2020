@@ -101,7 +101,8 @@ namespace AdventOfCode2018
         NORTH, SOUTH, WEST, EAST, NORTHEAST, NORTHWEST, SOUTHEAST, SOUTHWEST
     }
 
-    public static class Logging {
+    public static class Logging
+    {
         public static void WriteTrace(string message)
         {
             System.Diagnostics.Trace.WriteLine(message);

@@ -29,13 +29,14 @@ namespace AdventOfCode2018
             {
                 var passPorts = new List<string>();
                 var currentPassport = string.Empty;
-                foreach(var passportRow in input)
+                foreach (var passportRow in input)
                 {
                     if (passportRow.Length == 0)
                     {
                         passPorts.Add(currentPassport);
                         currentPassport = string.Empty;
-                    } else
+                    }
+                    else
                     {
                         currentPassport += (" " + passportRow);
                     }

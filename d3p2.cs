@@ -23,7 +23,6 @@ namespace AdventOfCode2018
             Assert.AreEqual(336L, new Program().RunChallenge(input));
         }
 
-
         [TestMethod]
         public void RealRun()
         {

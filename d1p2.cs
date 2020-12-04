@@ -40,7 +40,7 @@ namespace AdventOfCode2018
                     {
                         foreach (var number3 in numbers)
                         {
-                            if (number1 + number2  + number3 == 2020)
+                            if (number1 + number2 + number3 == 2020)
                             {
                                 return number1 * number2 * number3;
                             }

@@ -16,7 +16,6 @@ namespace AdventOfCode2018
             Assert.AreEqual(7, new Program().RunChallenge(input));
         }
 
-
         [TestMethod]
         public void RealRun()
         {
@@ -43,7 +42,6 @@ namespace AdventOfCode2018
                         Console.Out.WriteLine("Tree at y=" + posY + " x=" + posX);
                     }
                 }
-               
 
                 return treesEncountered;
             }

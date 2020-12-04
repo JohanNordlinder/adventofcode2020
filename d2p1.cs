@@ -27,7 +27,8 @@ namespace AdventOfCode2018
         {
             public int RunChallenge(List<string> input)
             {
-                var formated = input.Select(inputString => {
+                var formated = input.Select(inputString =>
+                {
                     var split = inputString.Split('-', ' ', ':');
                     return new
                     {
