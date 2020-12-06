@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace AdventOfCode2018
+namespace AdventOfCode2020
 {
     [TestClass]
     public class D1P2

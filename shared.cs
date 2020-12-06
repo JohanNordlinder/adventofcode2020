@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace AdventOfCode2018
+namespace AdventOfCode2020
 {
 
     public class Coordinate

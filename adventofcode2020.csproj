@@ -21,6 +21,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="d_6_t_1.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="d_6.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="d_5.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="d_4_t_3.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

@@ -5651,23 +5651,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jnordl\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\johan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\devenv\\github\\adventofcode2020\\adventofcode2020.csproj",
+      "projectUniqueName": "C:\\Users\\johan\\Documents\\GitHub\\adventofcode2020\\adventofcode2020.csproj",
       "projectName": "adventofcode2020",
-      "projectPath": "C:\\devenv\\github\\adventofcode2020\\adventofcode2020.csproj",
-      "packagesPath": "C:\\Users\\jnordl\\.nuget\\packages\\",
-      "outputPath": "C:\\devenv\\github\\adventofcode2020\\obj\\",
+      "projectPath": "C:\\Users\\johan\\Documents\\GitHub\\adventofcode2020\\adventofcode2020.csproj",
+      "packagesPath": "C:\\Users\\johan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\johan\\Documents\\GitHub\\adventofcode2020\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\jnordl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\johan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5679,7 +5675,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -5691,7 +5686,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "MSTest.TestAdapter": {
             "target": "Package",
@@ -5721,7 +5715,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

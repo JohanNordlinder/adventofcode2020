@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
 
-namespace AdventOfCode2018
+namespace AdventOfCode2020
 {
     [TestClass]
     public class D4P2
