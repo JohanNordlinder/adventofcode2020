@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 
 namespace AdventOfCode2020
@@ -9,11 +11,22 @@ namespace AdventOfCode2020
         public int X { get; set; }
         public int Y { get; set; }
         public int Z { get; set; }
+
+        public override bool Equals(object obj)
+        {
+            var other = (Coordinate)obj;
+            return other.X == X && other.Y == Y && other.Z == Z;
+        }
+
+        public override int GetHashCode()
+        {
+            return X + Y + Z;
+        }
     }
 
     public class CoordinateMovement
     {
-        private Coordinate Move(Coordinate lastPosition, Direction direction)
+        public static Coordinate Move(Coordinate lastPosition, Direction direction)
         {
             switch (direction)
             {
@@ -25,6 +38,14 @@ namespace AdventOfCode2020
                     return new Coordinate { X = lastPosition.X, Y = lastPosition.Y - 1 };
                 case Direction.LEFT:
                     return new Coordinate { X = lastPosition.X - 1, Y = lastPosition.Y };
+                case Direction.TOPLEFT:
+                    return new Coordinate { X = lastPosition.X - 1, Y = lastPosition.Y + 1 };
+                case Direction.TOPRIGHT:
+                    return new Coordinate { X = lastPosition.X + 1, Y = lastPosition.Y + 1 };
+                case Direction.BOTTOMLEFT:
+                    return new Coordinate { X = lastPosition.X - 1, Y = lastPosition.Y - 1 };
+                case Direction.BOTTOMRIGHT:
+                    return new Coordinate { X = lastPosition.X + 1, Y = lastPosition.Y - 1 };
                 default:
                     throw new Exception("Invalid Move");
             }
@@ -57,7 +78,7 @@ namespace AdventOfCode2020
 
     public enum Direction
     {
-        DOWN, UP, LEFT, RIGHT
+        DOWN, UP, LEFT, RIGHT, TOPLEFT, TOPRIGHT, BOTTOMRIGHT, BOTTOMLEFT
     }
 
     public static class DirectionTurns
