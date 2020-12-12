@@ -21,10 +21,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="d_12.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="d_12_t_1.txt">
     <None Update="d_10.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -38,6 +34,12 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="d_11_t_1.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="d_12.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="d_12_t_1.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="d_8.txt">
@@ -92,6 +94,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="d_1.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="d_0.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="d_0_t_1.txt">
