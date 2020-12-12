@@ -13,7 +13,7 @@ namespace AdventOfCode2020
 
     public class CoordinateMovement
     {
-        private Coordinate Move(Coordinate lastPosition, Direction direction)
+        public static Coordinate Move(Coordinate lastPosition, Direction direction)
         {
             switch (direction)
             {
