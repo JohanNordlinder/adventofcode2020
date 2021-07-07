@@ -105,6 +105,12 @@
     <None Update="d_22_t_1.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="d_24.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="d_24_t_1.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="d_8.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
